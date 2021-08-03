@@ -1,0 +1,24 @@
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+html
+{
+  height: 100%;
+
+  body
+  {
+    color: #E5E5E5;
+    height: 100%;
+
+    .full-height
+    {
+      height: 100%;
+    }
+
+    .nf-background
+    {
+      background-color: #141414;
+    }
+  }
+}
