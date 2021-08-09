@@ -16,7 +16,7 @@
           </span>
 
           <span class="position-absolute" style="top: 20px; right: 15px;">
-            <circle-button active icon="fa fa-times" @click="$emit('minimize')"/>
+            <circle-button active icon="fa fa-times" @click="$emit('close')"/>
           </span>
         </div>
 
@@ -105,7 +105,7 @@ export default class NfCardModal extends Vue
     overflow: auto;
     display: block !important;
 
-    background: rgba(128, 128, 128, 0.14);
+    background: rgba(128, 128, 128, 0.25);
 
     .modal-container
     {

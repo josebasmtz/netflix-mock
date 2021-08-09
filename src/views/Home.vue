@@ -1,13 +1,6 @@
 <template>
-  <div class="home">
-    <nf-card-modal v-bind="{item}"/>
-    <!--<nf-min-card :item="{
-      image: 'https://i.blogs.es/16e585/breaking-bad/1366_2000.jpg',
-      tags: [
-          'Acción',
-          'Narcos'
-      ]
-    }"/>-->
+  <div class="home mt-5">
+    <nf-video-item v-bind="{item}"/>
   </div>
 </template>
 

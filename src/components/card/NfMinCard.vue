@@ -1,5 +1,5 @@
 <template>
-  <div class="nf-min-card">
+  <div class="nf-min-card" @mouseleave="$emit('leave')">
     <img v-bind="{src}" alt="" class="img">
 
     <div class="px-3 my-3">
@@ -57,7 +57,6 @@ export default class NfMinCard extends Vue
 
   get tags()
   {
-    debugger;
     return this.item.tags || []
   }
 }
