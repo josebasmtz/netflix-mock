@@ -1,6 +1,10 @@
 <template>
   <div id="app" class="full-height nf-background" style="overflow: auto">
-    <router-view/>
+    <div class="nf-app">
+      <div class="container">
+        <router-view/>
+      </div>
+    </div>
   </div>
 </template>
 
